@@ -1,0 +1,41 @@
+.div {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  padding: 5% 22% 5% 22%;
+}
+
+.div2 {
+  color: var(--Misc-Text, #252020);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+  font: 47px Simplon Norm, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .div2 {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.div3 {
+  color: #252020;
+  margin-top: 45px;
+  padding-left: 35px;
+  width: 90%;
+  font: 22px/47px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+  justify-self: center;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .div3 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}

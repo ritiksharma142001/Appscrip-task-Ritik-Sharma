@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: 'SimplonNorm Bold';
+  src: url("C:/Users/ASUS/Desktop/New folder (2)/pro/fonts/SimplonNorm-Bold-WebS.woff") format('woff');
+}
+
+.c{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cartContainer {
+  display: flex;
+  width: 90%;
+}
+
+.filterDropContainer {
+  flex: 1;
+}
+
+.productContainer {
+  flex: 20; /* Adjust as needed */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+  }
+   */
+  .item {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    aspect-ratio: 1; 
+   
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    aspect-ratio: 1;
+    
+  }
+  
+  .content {
+    margin-top: 10px; 
+    text-align: center;
+    width: 100%;
+    height: 47px;
+    top: 415px;
+    gap: 8px;
+  }
+  
+  .title {
+    width: 100%;
+    height: 20px;
+    font-family: 'SimplonNorm Bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #252020;
+    overflow: hidden;
+}
+  
+  .subtitle {
+    width: 100%;
+    text-align: left;
+    height: 15px;
+    font-size: 12px;
+  }
+  
+  .subtitle img {
+    align-items: center;
+    padding-left: 12px;
+    width: 20px; 
+    height: 20px;
+    border: 1.5px;
+    color: #292D32;
+  }
+  
